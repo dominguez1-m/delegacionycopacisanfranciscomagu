@@ -1,0 +1,233 @@
+/* Fondo suave y agradable */
+body {
+  background: linear-gradient(#c3dae8,#f4dbe0,#c3dae8,#f4dbe0);
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Encabezado */
+#logo-img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+  border-radius: 10px;
+}
+
+#encabezado {
+  text-align: center;
+  background: linear-gradient(to bottom, #dbeafe, #f0f4f8);
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+#titulo h1{
+  font-size: 18px;
+  color: #003366;
+  margin: 15px 0 5px;
+}
+
+#bienvenida {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+/* Títulos secundarios */
+h2 {
+  font-size: 16px;
+  color: #005599;
+  margin-bottom: 10px;
+}
+/*Titulos terciarios*/
+h3{
+    font-size: 14px;
+}
+/* Menú de navegación */
+#menu {
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #99bbcc;
+  margin: 20px 0;
+  border-radius: 8px;
+  border: 1px solid #004999;
+}
+
+#menu a {
+  display: block;
+  padding: 5px 5px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+#menu a:hover {
+  background-color: #004999;
+}
+
+/* Secciones */
+section {
+  min-width: 260px;
+  background-color: #ffffff;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  margin-block: 10px;
+}
+
+aside {
+  min-width: 200px;
+  background-color: #f9f9f9;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+/* Línea del tiempo / eventos */
+#linea-tiempo {
+  margin-top: 10px;
+}
+
+#evento {
+  margin-bottom: 15px;
+  padding: 10px;
+  border-left: 4px solid #005599;
+  background-color: #eef5fb;
+  border-radius: 5px;
+}
+
+#fecha {
+  font-weight: bold;
+  color: #003366;
+  margin-bottom: 5px;
+}
+
+/* Pie de página */
+footer {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 12px;
+  color: #777;
+  padding: 10px;
+  border-top: 1px solid #ccc;
+}
+/*Formulario*/
+form {
+ padding: 20px;
+ background-color: #eef5fb;
+ border: 1px solid #ddd;
+ border-radius: 10px;
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+ display: block;
+ margin-bottom: 10px;
+ font-weight: bold;
+}
+
+input[type="text"] {
+ width: 100%;
+ height: 40px;
+ margin-bottom: 20px;
+ padding: 10px;
+ border: 1px solid #ccc;
+ border-radius: 5px;
+}
+
+select {
+ width: 100%;
+ height: 40px;
+ margin-bottom: 20px;
+ padding: 10px;
+ border: 1px solid #ccc;
+ border-radius: 5px;
+}
+
+input[type="checkbox"] {
+ margin-right: 10px;
+}
+
+input[type="submit"]{
+ background-color: #004999;
+ color: #777;
+ padding: 10px 20px;
+ border: none;
+ border-radius: 5px;
+ cursor: pointer;
+}
+
+input[type="submit"]:hover {
+ background-color: #eef5fb;
+}
+/*Calendario*/
+.eventos {
+ list-style: none;
+ padding: 0;
+ margin: 0;
+}
+
+.evento {
+ padding: 10px;
+ border-bottom: 1px solid #ccc;
+}
+
+.evento:last-child {
+ border-bottom: none;
+}
+
+.fecha {
+ font-weight: bold;
+ color: #666;
+}
+
+.descripcion {
+ color: #333;
+}
+#click,button{
+ background-color: #004999;
+ color: #777;
+ padding: 10px 20px;
+ border: none;
+ border-radius: 5px;
+ cursor: pointer;
+}
+
+#click :hover {
+ background-color: #eef5fb;
+}
+/* Responsividad para tablets y móviles */
+@media screen and (max-width: 768px) {
+  #contenido {
+    flex-direction: column;
+  }
+
+  #menu {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  #menu a:last-child {
+    border-bottom: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #titulo h1 {
+    font-size: 14px;
+  }
+
+  #bienvenida {
+    font-size: 10pxem;
+  }
+
+  #menu a {
+    padding: 10px;
+    font-size: 12px;
+  }
+}

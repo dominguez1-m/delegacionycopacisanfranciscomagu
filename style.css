@@ -180,9 +180,57 @@ input[type="submit"]:hover {
  background-color: #eef5fb;
 }
 /* Responsividad para tablets y móviles */
-@media (max-width:700px){
-    #menu {
-        flex-direction: column;
-    }
-    
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+    padding: 10px;
   }
+
+  #titulo h1 {
+    font-size: 16px;
+  }
+
+  #bienvenida {
+    font-size: 13px;
+  }
+
+  #menu {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #menu a {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  section, aside {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  #contenedor {
+    padding: 0 10px;
+  }
+
+  form input[type="text"],
+  form select {
+    width: 100%;
+  }
+
+  #click,
+  button {
+    width: 100%;
+    max-width: 300px;
+    margin-top: 10px;
+  }
+
+  #logo-img {
+    max-width: 90%;
+  }
+
+  footer {
+    font-size: 11px;
+    padding: 5px;
+  }
+}

@@ -4,7 +4,6 @@ body {
   font-family: Arial, sans-serif;
   color: #333;
 }
-
 /* Encabezado y logo del sitio */
 #logo-img {
   max-width: 100%;
@@ -29,7 +28,6 @@ body {
   color: #555;
   margin-bottom: 10px;
 }
-
 /* Títulos secundarios y terciarios*/
 h2 {
   font-size: 16px;
@@ -61,7 +59,6 @@ h3{
 #menu a:hover {
   background-color: #004999;
 }
-
 /* Estilo de secciones para todas las páginas*/
 section {
   min-width: 260px;
@@ -80,7 +77,6 @@ aside {
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
 }
-
 /* Línea del tiempo eventos (pagina pilrincipal) */
 #linea-tiempo {
   margin-top: 10px;
@@ -97,7 +93,6 @@ aside {
   color: #003366;
   margin-bottom: 5px;
 }
-
 /* Pie de página general para todas las páginas*/
 footer {
   margin-top: 30px;
@@ -107,7 +102,6 @@ footer {
   padding: 10px;
   border-top: 1px solid #ccc;
 }
-
 /*Formulario de la pagina coméntarios*/
 form {
  padding: 20px;
@@ -151,7 +145,6 @@ input[type="submit"]{
 input[type="submit"]:hover {
  background-color: #eef5fb;
 }
-
 /*Calendario dentro de la pagina contacto*/
 .eventos {
  list-style: none;
@@ -183,13 +176,12 @@ input[type="submit"]:hover {
  border-radius: 5px;
  cursor: pointer;
 }
-#click :hover {
+#click:hover {
  background-color: #eef5fb;
 }
-
 /* Responsividad para tablets y móviles */
 @media (max-width:700px){
-    #menu{
+    #menu {
         flex-direction: column;
     }
     

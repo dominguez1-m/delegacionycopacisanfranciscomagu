@@ -14,7 +14,7 @@ body {
 }
 #encabezado {
   text-align: center;
-  background: linear-gradient(to bottom, #dbeafe, #f0f4f8);
+  background: linear-gradient(#dbeafe, #f0f4f8);
   margin-bottom: 20px;
   border-radius: 10px;
 }
